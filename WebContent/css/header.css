@@ -1,0 +1,94 @@
+body {
+	background-color: silver;
+	margin: 0px;
+}
+
+.header {
+	background-color: white;
+	height: 10%;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+}
+.logoSpace {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;	
+	height: 100%;
+	width: 15%;
+}
+.profilePortal {
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 25%;
+}
+.searchBar {
+	background-color: green;
+	float: left;
+	padding-left: 15%;
+	height: 40%;
+	width: 30%;
+}
+.navigation-bar{
+	background-color: purple;
+	float: left;
+	width: 20%;
+	height: 90%;
+}
+.sarasa{
+  float: left;
+  width: 45%;
+  height: auto;
+}
+.today {
+	background-color: green;
+	float: left;
+	width: 100%;
+	height: 45%;
+}
+.gallery {
+  background-color: orange;
+  float: left;
+  width: 100%;
+  height: 45%;
+}
+.activity-stream {
+  background-color: yellow; 
+  float: left;
+  width: 35%;
+	height: 90%;
+}
+
+@media only screen and (max-width : 1150px) {
+
+.sarasa{
+  width: 70%;
+	}
+	
+.navigation-bar{
+  width: 30%;
+}
+
+.activity-stream {
+  width: 100%;
+}
+}
+	
+	@media only screen and (max-width : 750px) {
+	
+.sarasa{
+  width: 100%;
+}
+	
+.navigation-bar{
+  width: 100%;
+}
+}
+  
+	
+	
+	}
