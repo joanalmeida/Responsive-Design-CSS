@@ -1,74 +1,178 @@
-body {
-	background-color: silver;
+*{
+	padding: 0px;
 	margin: 0px;
+	font-family:arial;
 }
-
+body {
+  background-color: none;
+  margin: 0px;
+}
+.body{
+	position: absolute;
+	height: auto;
+	width: auto;
+}
+.allItems{
+	height: auto;
+	width: auto;
+}
+#container{
+	margin: 0 auto;
+	max-width:1300px;
+	height: auto;
+	width: auto;
+}
+.headText{
+  font-weight: normal;
+  color:black;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .header {
-	background-color: white;
-	height: 10%;
-	padding-left: 0px;
-	padding-right: 0px;
-	position: relative;
+	border-bottom: 25px solid white;
+  position: relative;
+  background-color: white;
+  height: 70px;
+  max-width: 1300px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .logoSpace {
-	background-color: transparent;
-	position: absolute;
-	top: 0;
-	left: 0;	
+/* 	RED */
+  background-color: transparent;
+  float: left; 
+  height: 70px;
+  width: 150px;
+}
+.logoImg{
 	height: 100%;
-	width: 15%;
+	width: 100%;
 }
 .profilePortal {
-	background-color: blue;
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 25%;
+/* 	BLUE */
+  background-color: transparent;
+  float: right;
+/*   position: relative; */
+/*   right: 0; */
+/*   top: 0; */
+  height: 70px;
+  width: auto;
+}
+.logoProfileImg{
+  height: 100%;
+  width: 70px;
+  float: left;
+}
+.profileName{
+	float: left;
+	margin-top: 25px;
+	padding-right: 10px;
 }
 .searchBar {
-	background-color: green;
-	float: left;
-	padding-left: 15%;
-	height: 40%;
-	width: 30%;
+/* 	Olive */
+  background-color: transparent;
+  float: left;
+  margin-left: 3%;
+  height: 30px;
+  width: auto;
+  margin-top: 28px;
 }
 .navigation-bar{
-	background-color: purple;
-	float: left;
-	width: 20%;
-	height: 90%;
+/* 	Purple */
+  background-color: transparent;
+  float: left;
+  width: auto;
+  min-height: 700px;
+  height: auto;
+  font-size: 1em;
+}
+.navigation-bar ul{
+  width: 200px;
+  line-height:40px;
+  list-style-type: none;
+}
+.navigation-bar li{
+	background-color: silver;
+}
+.navigation-bar li a{
+  border-top: 2px solid white;
+	height:35px;
+	display:block;
+	color: black;
+	text-decoration: none;
+  font-weight: bold;
+}
+.navigation-bar li a.title{
+  border-top: none;
+  color: white;
+  background-color: grey; 
+}
+#menu li a:hover{
+  background-color: grey;
 }
 .sarasa{
   float: left;
-  width: 45%;
-  height: auto;
+  min-height: 700px;
+  height:auto;
+  width:auto;
+  margin-right: 35px;
+  margin-left: 35px;
 }
 .today {
-	background-color: green;
-	float: left;
-	width: 100%;
-	height: 45%;
+/* 	Green */
+  background-color: transparent; 
+  min-width: 70%;
+  width: auto;
+  min-height: 350px;
+  height: auto;
+}
+.imgBox{
+	max-width:440px;
+	min-width:280px;
+  width: 75%;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-right: none;
+}
+.slice{
+	float: right;
+	clear: both;
+}
+.imgToday{
+	height: auto;
+	width:100%;
 }
 .gallery {
-  background-color: orange;
+/* 	ORANGE */
+  background-color: transparent;
+  min-width: 330px;
+  width: auto;
+  min-height: 350px;
+  height: auto;
+}
+.galleryImg {
+	height: 255px;
   float: left;
-  width: 100%;
-  height: 45%;
+  margin-left: none;
 }
 .activity-stream {
-  background-color: yellow; 
+/* 	Yellow */
+  background-color: transparent; 
   float: left;
-  width: 35%;
-	height: 90%;
+  min-width: 20%;
+  width: auto;
+  min-height: 700px;
+  height: auto;
 }
 
 @media only screen and (max-width : 1150px) {
 
 .sarasa{
-  width: 70%;
-	}
-	
+  max-width: auto;
+  margin: auto;
+  }
+
 .navigation-bar{
   width: 30%;
 }
@@ -77,18 +181,77 @@ body {
   width: 100%;
 }
 }
-	
-	@media only screen and (max-width : 750px) {
-	
+
+  @media only screen and (max-width : 750px) {
+
 .sarasa{
   width: 100%;
 }
-	
+
 .navigation-bar{
+	background-color: grey;
+	font-size: 0.75em;
+  min-width:600px;
+  width: 100%;
+  min-height:0px;
+  height: auto;
+}
+.today{
+	min-height:0px;
+	margin-bottom: 30px;
+}
+.activity-stream {
   width: 100%;
 }
+#menu{
+  padding: 0;
+  margin-top: 0;
 }
+#menu ul{
+  padding: 0;
+  margin: 0;
+  width: auto;
+  margin: auto;
+}
+#menu li{
+  position: relative;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li a{
+  width: 100px;
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+}
+#menu ul ul{
+  position: absolute;
+  top: 30px;  
+}
+#menu ul li ul{
+  visibility: hidden;
+}
+#menu ul li:hover ul{
+  visibility: visible;
+}
+  }
+
+  @media only screen and (max-width : 670px) {
   
-	
-	
-	}
+	.logoProfileImg{
+    display: none;
+  }
+  
+ }
+ 
+   @media only screen and (max-width : 480px) {
+   .finalImage{
+   display: none;
+   }
+   
+   }
+
