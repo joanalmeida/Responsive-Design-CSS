@@ -109,7 +109,7 @@ body {
 }
 .sarasa{
   float: left;
-/*   min-height: 700px; */
+  min-height: 700px;
   height:auto;
   width:auto;
   margin-right: 35px;
@@ -142,7 +142,7 @@ body {
 .gallery {
 /* 	ORANGE */
   background-color: transparent;
-/*   min-width: 330px; */
+  min-width: 330px;
   width: auto;
   min-height: 350px;
   height: auto;
@@ -162,105 +162,5 @@ body {
   height: auto;
 }
 
-@media only screen and (max-width : 1230px) {
 
-.sarasa{
-  max-width: auto;
-  margin: auto;
-  }
 
-.navigation-bar{
-  width: 30%;
-}
-
-.activity-stream {
-  width: 100%;
-  margin-left: 30%;
-}
-}
-
-  @media only screen and (max-width : 750px) {
-
-.sarasa{
-  width: 100%;
-}
-
-.navigation-bar{
-	background-color: grey;
-	font-size: 0.75em;
-  min-width:600px;
-  width: 100%;
-  min-height:0px;
-  height: auto;
-}
-.today{
-	min-height:0px;
-	margin-bottom: 30px;
-}
-.activity-stream {
-  width: 100%;
-  margin-left: 0;
-}
-#menu{
-  padding: 0;
-  margin-top: 0;
-}
-#menu ul{
-  padding: 0;
-  margin: 0;
-  width: auto;
-  margin: auto;
-}
-#menu li{
-  position: relative;
-  float: left;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.clear{
-	clear: both;
-}
-#menu li a{
-  width: 100px;
-  height: 30px;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  line-height: 30px;
-}
-#menu ul ul{
-  position: absolute;
-  top: 30px;  
-}
-#menu ul li ul{
-  visibility: hidden;
-}
-#menu ul li:hover ul{
-  visibility: visible;
-}
-  }
-
-  @media only screen and (max-width : 670px) {  
-.logoProfileImg{
-    display: none;
-}
-.profileName{
-	position: absolute;
-	right: 0;
-	top: 0;
-	float: none;
-	margin-top: 0;
-}
- }
-
-   @media only screen and (max-width : 480px) {
-
-.finalImage{
-   display: none;
-}
-/* .sarasa{ */
-/*    min-height: 0px; */
-/* } */
-
-}
