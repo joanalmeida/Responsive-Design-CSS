@@ -1,0 +1,56 @@
+.navigation-bar{
+	background-color: grey;
+	min-width:600px;
+	height: auto;
+	width: auto;
+}
+.navigation-bar li{
+	background-color: silver;
+}
+.navigation-bar li a{
+	border-top: 2px solid white;
+	height:35px;
+	display:block;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.navigation-bar li a.title{
+  border-top: none;
+  color: white;
+  background-color: grey; 
+}
+#menu{
+  padding: 0;
+  margin-top: 0;
+  font-size: 80%;
+}
+#menu ul{
+  padding: 0;
+  margin: 0;
+  margin: auto;
+}
+#menu li{
+  position: relative;	
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li a{
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+}
+#menu ul ul{
+  position: absolute;
+  top: 30px;  
+}
+#menu ul li ul{
+  visibility: hidden;
+}
+#menu ul li:hover ul{
+  visibility: visible;
+}

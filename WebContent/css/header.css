@@ -79,24 +79,22 @@ body {
   background-color: transparent;
   float: left;
   width: auto;
-  min-height: 700px;
   height: auto;
   font-size: 1em;
 }
 .navigation-bar ul{
-  width: 200px;
   line-height:40px;
   list-style-type: none;
 }
 .navigation-bar li{
-	background-color: silver;
+  background-color: silver;
 }
 .navigation-bar li a{
   border-top: 2px solid white;
-	height:35px;
-	display:block;
-	color: black;
-	text-decoration: none;
+  height:35px; 
+  display:block;
+  color: black;
+  text-decoration: none;
   font-weight: bold;
 }
 .navigation-bar li a.title{
@@ -109,7 +107,6 @@ body {
 }
 .sarasa{
   float: left;
-/*   min-height: 700px; */
   height:auto;
   width:auto;
   margin-right: 35px;
@@ -184,7 +181,11 @@ body {
 .sarasa{
   width: 100%;
 }
-
+.arrow{
+   margin: auto 0;
+   position: relative;
+   left:0;
+}
 .navigation-bar{
 	background-color: grey;
 	font-size: 0.75em;

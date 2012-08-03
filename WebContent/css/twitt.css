@@ -1,0 +1,43 @@
+.search{
+	margin-top: 3.3%;
+}
+.profileImage{
+	margin-top: 30%;
+}
+.profileName{
+	margin-top: 3%;
+}
+.navigation-bar{
+	min-width: 100px;
+}
+.navigation-bar ul{
+  line-height:40px;
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+}
+.navigation-bar li{
+  background-color: silver;
+  text-align: left;
+}
+.navigation-bar li a{
+  border-top: 2px solid white;
+  height:35px; 
+  display:block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
+}
+.navigation-bar li a.title{
+  border-top: none;
+  color: white;
+  background-color: grey; 
+}
+#menu li a:hover{
+  background-color: grey;
+}
+.streamImage{
+	height: 500px;
+	min-width: 200px;
+}
